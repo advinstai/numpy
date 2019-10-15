@@ -102,3 +102,6 @@ print(my_2d_array[1,2])
 * Transforme esse array de 1D (1x10) para 2D (2x5) usando a função reshape
 
 
+### Referências:
+
+* https://www.labri.fr/perso/nrougier/from-python-to-numpy/
