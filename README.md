@@ -95,3 +95,10 @@ print(my_2d_array[1][2])
 
 ### Select the element at row 1 column 2
 print(my_2d_array[1,2])
+
+### Exercícios:
+
+* Crie um array com 10 elementos usando a função arange
+* Transforme esse array de 1D (1x10) para 2D (2x5) usando a função reshape
+
+
