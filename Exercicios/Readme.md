@@ -4,7 +4,6 @@
 * Crie um vetor com valores que variam de 10 a 49
 * Inverter um vetor (o primeiro elemento se torna o último)
 * Crie uma matriz 3x3 com valores que variam de 0 a 8
-* Encontre índices de elementos diferentes de zero em \ [1,2,0,0,4,0 \]
 * Crie uma matriz de identidade 3x3
 * Crie uma matriz 3x3x3 com valores aleatórios
 * Crie uma matriz 10x10 com valores aleatórios e encontre os valores mínimo e máximo
