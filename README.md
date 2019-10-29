@@ -38,28 +38,31 @@ n = np.identity(5)
 print("np.identity: ",n)
 
 ### Import
-x, y, z = np.loadtxt('text-file.txt', skiprows=1, unpack=True)
 
-print("loadtxt ")
-print("x: ",x)
-print("y: ",y)
-print("z: ",z)
 
-my_array2 = np.genfromtxt('text-file.txt',
-                      skip_header=1,
-                      filling_values=-999)
+nHIGH=np.eye(500)
+np.save('/home/silvio/testg',nHIGH)
+np.savetxt('/home/silvio/testg.txt',nHIGH)
+np.savez('/home/silvio/testH',nHIGH)
+np.savez_compressed('/home/silvio/testH-c',nHIGH)
+
+!ls -l /home/silvio/testg.npy
+!ls -l /home/silvio/testH.npz
+!ls -l /home/silvio/testH-c.npz
+!cat /home/silvio/testg.npy
+
+my_array2 = np.loadtxt('/home/silvio/testg.txt')
+print("my_array2: ",my_array2)
+
+my_array2 = np.load('/home/silvio/testg.npy') #, skip_header=1, filling_values=-999)
 
 print("my_array2: ",my_array2)
 
-n = np.eye(5)
-m=np.full((2,2),7)
+my_array2 = np.load('/home/silvio/testH-c.npz') #, skip_header=1, filling_values=-999)
 
-np.save('test',n)
-
-nHIGH=np.eye(50)
-np.savez('testH',nHIGH)
-np.savez_compressed('testH-c',nHIGH)
-
+print("my_array2: ",my_array2)
+print("my_array2: ",my_array2.files)
+print("my_array2: ",my_array2['arr_0'])
 my_array=np.full((12,12),70)
 
 ### Print the number of `my_array`'s dimensions
