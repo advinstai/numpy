@@ -101,6 +101,11 @@ print(my_2d_array[1,2])
 * Crie um array com 10 elementos usando a função arange
 * Transforme esse array de 1D (1x10) para 2D (2x5) usando a função reshape
 
+* Crie duas matrizes bidimensionais com valores aleatórios
+* calcule a transposta de cada matriz
+* multiplique as duas matrizes
+* Salve as matrizes de entrada e a de saída em arquivos. Qual o tamanho dos arquivos gerados?
+* Crie duas bidimensionais matrizes com valores aleatórios e gere uma única matriz combinando linha a linha
 
 ### Referências:
 
