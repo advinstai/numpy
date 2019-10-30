@@ -100,9 +100,9 @@ print(my_2d_array[1][2])
 print(my_2d_array[1,2])
 
 ### Concatenate arrays:
-grid = np.array([[1, 2, 3],[4, 5, 6]])
-grid2 = np.array([[10, 20, 30],[40, 50, 60]])
-np.concatenate([grid, grid2])
+* grid = np.array([[1, 2, 3],[4, 5, 6]])
+* grid2 = np.array([[10, 20, 30],[40, 50, 60]])
+* np.concatenate([grid, grid2])
 
 ### Exercícios:
 
