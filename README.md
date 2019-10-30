@@ -99,6 +99,11 @@ print(my_2d_array[1][2])
 ### Select the element at row 1 column 2
 print(my_2d_array[1,2])
 
+### Concatenate arrays:
+grid = np.array([[1, 2, 3],[4, 5, 6]])
+grid2 = np.array([[10, 20, 30],[40, 50, 60]])
+np.concatenate([grid, grid2])
+
 ### Exercícios:
 
 * Crie um array com 10 elementos usando a função arange
